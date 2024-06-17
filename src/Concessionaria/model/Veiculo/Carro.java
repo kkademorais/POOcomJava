@@ -1,4 +1,4 @@
-/*package Concessionaria.model.Veiculo;
+package Concessionaria.model.Veiculo;
 
 public class Carro {
     //Atributos ou características
@@ -9,7 +9,7 @@ public class Carro {
     String modelo;
 
     //Construtor
-    public Carro(newKm, newAno, newCor, newMarca, newModelo){
+    public Carro(double newKm, int newAno, String newCor, String newMarca, String newModelo){
         this.kmRodados = newKm;
         this.ano = newAno;
         this.cor = newCor;
@@ -19,8 +19,8 @@ public class Carro {
 
     //Métodos ou comportamentos
     public void andar(){
-        double distanciaPercorrida;
-        kmRodados += distanciaPercorrida;
+        //double distanciaPercorrida;
+        //kmRodados += distanciaPercorrida;
     }
 
     public void mostrarCarro(){
@@ -65,4 +65,3 @@ public class Carro {
         this.modelo = newModelo;
     }
 }
-*/
